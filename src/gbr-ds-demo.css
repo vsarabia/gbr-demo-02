@@ -8,3 +8,49 @@
     border-bottom: 4px solid green;
     margin-bottom: 32px;
 }
+
+.rockefeller-post {
+    max-width: 414px;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.rockefeller-post__link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.rockefeller-post__image {
+    width: calc(100% + 2rem);
+    margin: -1rem -1rem 1rem;
+}
+
+.rockefeller-post__title {
+    margin: 0 0 4px;
+}
+
+
+
+
+.section-with-cards {
+    display: flex;
+}
+
+.section-with-cards .rockefeller-post:not(:first-of-type) {
+    margin-left: 1.5rem;
+}
+
+.section-with-cards .rockefeller-post {
+    box-shadow: 0 0 0.25rem rgb(0 0 0 / 25%);
+    background-color: #FFF;
+}
+
+.section-with-cards .rockefeller-post__title {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.section-with-cards .rockefeller-post__author {
+    color: #666;
+}
