@@ -1,0 +1,10 @@
+/* $gbr-green: #258705; */
+
+.section-header {
+    font-family: sans-serif;
+    font-size: 31px;
+    line-height: 36px;
+    padding-bottom: 16px;
+    border-bottom: 4px solid green;
+    margin-bottom: 32px;
+}

@@ -5,3 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+
+
+// Import global CSS
+import "./src/gbr-ds-demo.css"
